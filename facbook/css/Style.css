@@ -1,0 +1,92 @@
+
+            body {
+                margin: 0;
+                font-family: Helvetica, Arial, sans-serif;
+                background-color: #ffff;
+                font-size: 27px;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+            }
+
+            .left {
+                width: 450px;
+                margin-right: 60px;
+            }
+
+
+
+
+
+            .left p {
+                font-size: 24px;
+                color: #1c1e21;
+            }
+
+            img {
+                height: 106px;
+                margin: -28px;
+                border: 0px;
+                overflow-clip-margin: content-box;
+                overflow: clip;
+            }
+
+            .login-box {
+                background: white;
+                width: 360px;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            }
+
+
+            .login-box input {
+                width: 100%;
+                padding: 14px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+            }
+
+            .login-box button {
+                width: 100%;
+                padding: 14px;
+                background-color: #1877f2;
+                color: white;
+                font-size: 18px;
+                border: none;
+                border-radius: 6px;
+            }
+
+
+
+    
+
+            .login-box a {
+                display: block;
+                text-align: center;
+                margin-top: 15px;
+                color: #1877f2;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+            .divider {
+                border-top: 1px solid #ddd;
+                margin: 20px 0;
+            }
+
+            button.create-btn {
+                background-color: #42b72a;
+                font-size: 16px;
+                padding: 14px 16px;
+                border-radius: 6px;
+                color: white;
+                border: none;
+                width: 100%;
+            }
